@@ -38,7 +38,7 @@ jndi:
       schema: ${pgconfig.schema:pgconfig}
       wait-for-it: true
       wait-timeout: 10
-      url: jdbc:postgresql://${pgconfig.host:pgconfigdb}:${pgconfig.port:5432}/${pgconfig.database:pgconfig}
+      url: jdbc:postgresql://${pgconfig.host:pgconfigdb}:${pgconfig.port:5432}/another-test
       username: ${pgconfig.username:pgconfig}
       password: ${pgconfig.password:pgconfig}
       maximum-pool-size: ${pgconfig.maxConnections:10}
