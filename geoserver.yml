@@ -113,7 +113,7 @@ geoserver:
       create-schema: true
       datasource:
         jndi-name: ${pgconfig.jndi-name:}
-        url: "${pgconfig.url:jdbc:postgresql://${pgconfig.host:database}:${pgconfig.port:5432}/${pgconfig.database:geoserver_config}}"
+        url: "${pgconfig.url:jdbc:postgresql://${pgconfig.host:database}:${pgconfig.port:5432}/test-oder-so}"
         username: ${pgconfig.username:pgconfig}
         password: ${pgconfig.password:pgconfig}
         driverClassname: ${pgconfig.driverClassname:org.postgresql.Driver}
